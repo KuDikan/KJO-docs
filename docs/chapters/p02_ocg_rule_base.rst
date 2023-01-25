@@ -8,4 +8,4 @@ KJO规则基础
    :maxdepth: 2
    :glob:
 
-   ../c02/基本用语.rst
+   ../c02/基本规则.rst
