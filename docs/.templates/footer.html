@@ -1,0 +1,25 @@
+<head>
+        <!-- ... -->
+        <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+        <!-- ... -->
+</head>
+
+<body>
+        <!-- ... -->
+        <div id="waline"></div>
+        <script>
+                Waline.init({
+                        el: '#waline',
+                        serverURL: 'https://kjo-vercel.vercel.app/',
+                        emoji: [
+                                'https://unpkg.com/@waline/emojis@1.1.0/qq',
+                                'https://unpkg.com/@waline/emojis@1.1.0/bilibili',
+                                'https://unpkg.com/@waline/emojis@1.1.0/bmoji'
+                        ],
+                        pageview: true,
+                        comment: true,
+                        dark: 'body[data-theme="dark"]',
+                });
+        </script>
+</body>
